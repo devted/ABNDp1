@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.example.android.abnd_project1_single_screen_app.MainActivity">
+
+    <ImageView
+        android:id="@+id/chess_bg"
+        android:src="@drawable/chess_black_and_gold"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/muchess"
+        android:src="@drawable/mu_chess_transparent"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scaleType="center"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muchess"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+
+        android:text="Address: "
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/address"
+        android:layout_below="@id/muchess"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+
+        android:text="MU Memorial Union"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/address3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/address"
+        android:layout_below="@id/address"
+        android:layout_marginLeft="20dp"
+
+        android:text="room S203 (2nd floor)"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/address4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/address"
+        android:layout_below="@id/address3"
+        android:layout_marginLeft="20dp"
+
+        android:text="518 S. Hitt Street"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/address5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/address"
+        android:layout_below="@id/address4"
+        android:layout_marginLeft="20dp"
+
+        android:text="Columbia, MO  65211"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:text="Join us for MU chess! We meet"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginLeft="20dp"
+
+        android:text="Mondays at 7p.m."
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description2"
+        android:layout_marginLeft="20dp"
+
+        android:text="https://sites.google.com/site/umcchess/"
+        android:textSize="20sp"
+        android:background="#e6b531"
+        android:autoLink="web" />
+
+    <TextView
+        android:id="@+id/president"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+
+        android:text="Club President:  Blake Spitter"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/president"
+        android:layout_marginLeft="20dp"
+
+        android:text="basv6d@mail.missouri.edu"
+        android:textSize="24sp"
+        android:background="#e6b531"
+        android:autoLink="email" />
+
+
+</RelativeLayout>
